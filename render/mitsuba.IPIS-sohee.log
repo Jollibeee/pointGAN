@@ -1,0 +1,15 @@
+2020-03-09 22:41:02 INFO  main [mitsuba.cpp:275] Mitsuba version 0.6.0 (Linux, 64 bit), Copyright (c) 2017 Wenzel Jakob
+2020-03-09 22:41:02 INFO  main [mitsuba.cpp:377] Parsing scene description from "res/xml/gGAN_0038.xml" ..
+2020-03-09 22:41:02 INFO  main [PluginManager] Loading plugin "plugins/path.so" ..
+2020-03-09 22:41:02 INFO  main [PluginManager] Loading plugin "plugins/ldsampler.so" ..
+2020-03-09 22:41:02 INFO  main [PluginManager] Loading plugin "plugins/gaussian.so" ..
+2020-03-09 22:41:02 INFO  main [PluginManager] Loading plugin "plugins/ldrfilm.so" ..
+2020-03-09 22:41:02 INFO  main [PluginManager] Loading plugin "plugins/perspective.so" ..
+2020-03-09 22:41:02 INFO  main [PluginManager] Loading plugin "plugins/roughplastic.so" ..
+2020-03-09 22:41:02 INFO  main [PluginManager] Loading plugin "plugins/diffuse.so" ..
+2020-03-09 22:41:02 INFO  main [PluginManager] Loading plugin "plugins/sphere.so" ..
+2020-03-09 22:41:03 INFO  main [PluginManager] Loading plugin "plugins/rectangle.so" ..
+2020-03-09 22:41:03 INFO  main [PluginManager] Loading plugin "plugins/area.so" ..
+2020-03-09 22:41:03 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (2050 primitives) ..
+2020-03-09 22:41:03 INFO  ren0 [KDTreeBase] Finished -- took 38 ms.
+2020-03-09 22:41:03 INFO  ren0 [SamplingIntegrator] Starting render job (1600x1200, 256 samples, 16 cores, SSE2 enabled) ..

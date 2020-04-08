@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/ChamferDistancePytorch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/chamferdist" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/temp/3PU_pytorch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/temp/PointGCN" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/temp/PointNet-encoder-and-FoldingNet-decoder-add-quantization-change-latent-code-size-from-512-to-1024" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/temp/deep_gcns_torch" vcs="Git" />
+  </component>
+</project>

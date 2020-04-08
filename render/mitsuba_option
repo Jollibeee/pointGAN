@@ -1,0 +1,47 @@
+Options/Arguments:
+   -h          Display this help text
+
+   -D key=val  Define a constant, which can referenced as "$key" in the scene
+
+   -o fname    Write the output image to the file denoted by "fname"
+
+   -a p1;p2;.. Add one or more entries to the resource search path
+
+   -p count    Override the detected number of processors. Useful for reducing
+               the load or creating scheduling-only nodes in conjunction with
+               the -c and -s parameters, e.g. -p 0 -c host1;host2;host3,...
+
+   -q          Quiet mode - do not print any log messages to stdout
+
+   -c hosts    Network rendering: connect to mtssrv instances over a network.
+               Requires a semicolon-separated list of host names of the form
+                       host.domain[:port] for a direct connection
+                 or
+                       user@host.domain[:path] for a SSH connection (where
+                       "path" denotes the place where Mitsuba is checked
+                       out -- by default, "~/mitsuba" is used)
+
+   -s file     Connect to additional Mitsuba servers specified in a file
+               with one name per line (same format as in -c)
+
+   -j count    Simultaneously schedule several scenes. Can sometimes accelerate
+               rendering when large amounts of processing power are available
+               (e.g. when running Mitsuba on a cluster. Default: 1)
+
+   -n name     Assign a node name to this instance (Default: host name)
+
+   -x          Skip rendering of files where output already exists
+
+   -r sec      Write (partial) output images every 'sec' seconds
+
+   -b res      Specify the block resolution used to split images into parallel
+               workloads (default: 32). Only applies to some integrators.
+
+   -v          Be more verbose (can be specified twice)
+
+   -L level    Explicitly specify the log level (trace/debug/info/warn/error)
+
+   -w          Treat warnings as errors
+
+   -z          Disable progress bars
+
